@@ -1,4 +1,4 @@
-public class RefactorATableOfVariables {
+public class RefactorATableVariables {
     public static void main(String[] args) {
         System.out.println("a   a^2   a^3");
         int a = 1;
