@@ -11,3 +11,15 @@ public class AreasOfRectangles {
         System.out.println("The first one is "+Rec1Arealnlnches+"cm. The second one is "+Rec2Arealnlnches+"cm. The Third one is "+Rec3Arealnlnches+"cm. The last one is "+Rec4Arealnlnches+"cm.");
     }   
 }
+
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+-Most of this stuff is supposed to be stored out in unique varaibles, as per the isntructions.
+
+1/1 - Formatting?
+1/1 Comments
+
+ */

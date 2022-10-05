@@ -7,3 +7,12 @@ public class TemperatureFlux {
         System.out.println("Today's High:" + high + " Today's low:" + low + " Today's difference:" + diff);
     }
 }
+
+/*
+
+1/1 - Compiles?
+1/1 - Accurate versus the instructions?
+1/1 - Formatting?
+1/1 Comments
+
+ */

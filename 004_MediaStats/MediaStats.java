@@ -28,3 +28,16 @@ public class MediaStats {
 
     }
 }
+
+
+/*
+
+1/1 - Compiles?
+1/1 - Accurate versus the instructions?
+-Each variables is supposed to be unique, not just updated before the next print statement.
+I'll be nice this time, but keep it in mind.
+1/1 - Formatting?
+-This works
+1/1 Comments
+
+ */
