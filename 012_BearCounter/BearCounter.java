@@ -13,3 +13,15 @@ public class BearCounter {
     }
 
 //
+
+/*
+
+1/1 - Compiles?
+1/1 - Accurate versus the instructions?
+-Interesting. Where'd you get the for loop. Steve?
+
+1/1 - Formatting?
+0/1 Comments
+-No comments
+
+ */
