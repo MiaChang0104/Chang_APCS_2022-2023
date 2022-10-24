@@ -4,6 +4,7 @@ public class Car {
     String manufacturerName;
     String modelName;
     boolean hasTurbo = false;
+    public char[] car;
 
     // Base model constructor
     public Car() {
