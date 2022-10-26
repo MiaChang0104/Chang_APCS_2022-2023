@@ -13,5 +13,8 @@ public class CarAge {
         int year = 2022;
 
         System.out.println(calculator.integerSubtractor(year, car1.year));
+        System.out.println(calculator.integerSubtractor(year, car2.year));
+        System.out.println(calculator.integerSubtractor(year, car3.year));
+        System.out.println(calculator.integerSubtractor(year, car4.year));
     }
 }

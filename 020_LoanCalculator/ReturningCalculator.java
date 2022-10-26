@@ -30,4 +30,8 @@ public class ReturningCalculator {
     public double divider(double x, double y) {
         return x / y;
     }
+
+    public char[] doubleMultiplier(double doubleSubtractor) {
+        return null;
+    }
 }
