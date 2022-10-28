@@ -8,7 +8,7 @@ public class PerimeterAreaOfAHexagonCalculator {
         Double area = (Double) ((Math.sqrt(3)*3*Math.pow(side, side))/2);
         System.out.println("The perimeter is " + perimeter + " The area is " + area);
         scan.close();
-        
+      //Math.pow(doublex,doubley)  
 
     }
 }
