@@ -4,7 +4,8 @@ public class SubstringPrinter {
         System.out.println(find.substring(40, 44));
         System.out.println(find.substring(16, 19));
         System.out.println(find.substring(38, 40));
-        System.out.println(find.substring(17, 19)+find.substring(0, 0));
-        
+        System.out.print(find.substring(17, 19));
+        System.out.println(find.substring(20, 23));
+        System.out.println(find.substring(43));
     }    
 }
