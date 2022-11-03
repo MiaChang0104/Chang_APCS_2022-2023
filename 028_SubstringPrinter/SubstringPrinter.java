@@ -7,5 +7,5 @@ public class SubstringPrinter {
         System.out.print(find.substring(17, 19));
         System.out.println(find.substring(20, 23));
         System.out.println(find.substring(43));
-    }    
+    }    //find.substring
 }

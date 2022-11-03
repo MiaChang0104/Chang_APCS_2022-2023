@@ -15,7 +15,7 @@ public class DistanceAcrossEarth {
         double Distance = (double) (DistanceLatitude*DistanceLatitude + DistanceLlongitude*DistanceLlongitude);
         System.out.println("The distance is "+Distance);
         scan.close();
-
+        //double
         
     }
 }
