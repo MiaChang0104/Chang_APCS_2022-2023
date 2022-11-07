@@ -16,6 +16,7 @@ public class ShippingCalculator {
             System.out.println("Invalid input");
         } else {
             System.out.println("This package cannot be shipped");
+            scan.close();
         }
     }
 }
