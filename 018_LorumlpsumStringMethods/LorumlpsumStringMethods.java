@@ -21,5 +21,6 @@ public class LorumlpsumStringMethods {
         System.out.println(first.indexOf("q"));
         System.out.println(first.replace("o", "x"));
         System.out.println(first.indexOf("z"));
+        //if it don't have z will show -1
     }
 }

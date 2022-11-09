@@ -22,6 +22,7 @@ public class IsItLegalForYou {
     }   else{
         System.out.println("You can't do all of this ");
         scan.close();
+        //scan.close()
     }
 
 }    
