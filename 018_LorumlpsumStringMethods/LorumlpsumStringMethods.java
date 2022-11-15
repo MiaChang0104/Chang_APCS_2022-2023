@@ -13,7 +13,7 @@ public class LorumlpsumStringMethods {
         }   else {
             System.out.println("No");
         }
-        if (first ==first){
+        if (first2 ==first){
             System.out.println("Same");
         }   else{
             System.out.println("No");
