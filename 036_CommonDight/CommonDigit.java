@@ -6,6 +6,7 @@ public class CommonDigit {
         System.out.println("Type your first number here(25--75): ");
         String number1 = scan.nextLine();
         System.out.println("Type your second number here(25--75): ");
+        // use string
         String number2 = scan.nextLine();
         String num1 = number1.substring(0, 1);
         String num2 = number1.substring(1, 2);
