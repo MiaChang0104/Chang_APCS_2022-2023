@@ -37,7 +37,7 @@ public class BlackjackOne {
         } else {
             pointss = third+1;
             System.out.println("You got " +pointss+" points");
-        }
+        }// use if
           int total1=points+point+points;
           System.out.println("Total points is " + total1);
           if (total1>=21){
