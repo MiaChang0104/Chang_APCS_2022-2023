@@ -17,3 +17,14 @@ public class TabletopDicec{
         // 10*
     }
 }
+
+/*
+
+1/1 - Compiles?
+1/1 - Accurate versus the instructions?
+1/1 - Formatting?
+0/1 Comments
+
+This comment isn't really anything.
+
+ */

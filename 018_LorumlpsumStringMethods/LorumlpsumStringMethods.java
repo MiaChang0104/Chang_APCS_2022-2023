@@ -24,3 +24,12 @@ public class LorumlpsumStringMethods {
         //if it don't have z will show -1
     }
 }
+
+/*
+
+1/1 - Compiles?
+1/1 - Accurate versus the instructions?
+1/1 - Formatting?
+1/1 Comments
+
+ */

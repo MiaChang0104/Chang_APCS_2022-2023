@@ -11,3 +11,13 @@ public class PerimeterAreaOfACircleCalculator {
         //Math.PI
     }
 }
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+0/1 - Formatting?
+-Double would be better here, especially because you're useing Pi, right?
+1/1 Comments
+
+ */
