@@ -26,6 +26,6 @@ public class CommonDigit {
             System.out.println("have same number " + num4);
         } else {
             System.out.println("Didn't find the same number");
-        }
+        } scan.close();
     }
 }
