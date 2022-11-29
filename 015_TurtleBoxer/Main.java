@@ -24,3 +24,9 @@ public class Main {
     //Finally, set the world to be visible with a boolean. Ex: worldName.setVisible(the proper boolean);
   }
 }
+
+/*
+
+Doesn't look like you've done anything here?
+
+*/

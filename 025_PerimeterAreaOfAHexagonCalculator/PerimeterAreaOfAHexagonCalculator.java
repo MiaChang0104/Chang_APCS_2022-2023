@@ -12,3 +12,13 @@ public class PerimeterAreaOfAHexagonCalculator {
 
     }
 }
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+-That area calculation is not correct.
+1/1 - Formatting?
+1/1 Comments
+
+ */
