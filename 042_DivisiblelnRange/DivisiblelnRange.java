@@ -14,7 +14,7 @@ public class DivisiblelnRange {
                 System.out.println(i);
 
             } else {
-                System.out.println(" ");
+                System.out.println("");
             }
         }
     }

@@ -8,13 +8,19 @@ public class PowerAttack {
         //monster
         int armor = 11;
         int monster = 13;
-        if (characterTotal < armor){
-            System.out.println("Sorry your only got " + characterTotal);
-        } else {
-            while((monster - weapon) >= 0) {
-                monster -= weapon;
+        while (monster>0){
+            if (characterTotal < armor){
+            monster -= weapon;
+            System.out.println("Sorry you can't attack.");
+            
+            if (monster<=0){
+                System.out.println("You win");
+            } else{
+                System.out.println("monster have "+ monster);
             }
-            System.out.println("Monster only got " + monster);
+            
+        }
+        
         }
         
     }
