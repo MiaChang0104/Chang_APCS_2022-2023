@@ -6,12 +6,19 @@ public class SpellingBeeSimulator {
         System.out.println("Type your word here:");
         String word = scan.nextLine();
         System.out.println(word);
-        String word1 = word+"-";
         for (int i = 0; i < word.length(); i++) {
-            String str = word.substring(0, word1.length()-1);
-            System.out.println(str);
+            /*
+             * if this is the last word print word
+             * else print word with"-"
+             */
+
+            if (i == word.length() - 1) {
+                System.out.print(word.substring(i, i + 1));
+            } else {
+                System.out.print(word.substring(i, i + 1) + "-");
+            }
+
         }
-        
-        
+
     }
 }
