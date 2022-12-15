@@ -7,7 +7,7 @@ public class FizzBuzzForLoop {
         int number = scan.nextInt();
         int i = 0;
         for (i = 0; i <= number; i++) {
-            if (i % 3 ==0 && i % 5 == 0 ) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else if (i % 3 == 0) {
                 System.out.println("Fizz");
@@ -16,6 +16,6 @@ public class FizzBuzzForLoop {
             } else {
                 System.out.println(i);
             }
-        }// i = 0;
+        } // i = 0;
     }
 }
