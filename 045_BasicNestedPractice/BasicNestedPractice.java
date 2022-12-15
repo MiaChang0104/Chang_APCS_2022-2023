@@ -1,16 +1,20 @@
 import java.util.Scanner;
+
 public class BasicNestedPractice {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Type your number here:");
-        int number = scan.nextInt();
-        for(int row = 0; row < number; row++){
-            if(number > 20){
-                System.out.println("Can't print");
-            } else{
-                System.out.print(row);
+        String number = scan.nextLine();
+        for (int i = 0; i < number.length(); i++) {
+            for (int j = 0; j < number.length(); j++) {
+
+                if (number.length() <= 20) {
+                    System.out.print(i + "-" + j + "\t");
+                } else {
+                    System.out.println("Can't be bigger than 20");
+                    break;
+                }
             }
-            
-        }   
+        }
     }
 }
