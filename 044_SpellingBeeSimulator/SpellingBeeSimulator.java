@@ -18,7 +18,7 @@ public class SpellingBeeSimulator {
                 System.out.print(word.substring(i, i + 1) + "-");
             }
 
-        }
+        } scan.close();
 
     }
 }

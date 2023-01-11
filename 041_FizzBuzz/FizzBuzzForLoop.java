@@ -16,6 +16,6 @@ public class FizzBuzzForLoop {
             } else {
                 System.out.println(i);
             }
-        } // i = 0;
+        }scan.close(); // i = 0;
     }
 }

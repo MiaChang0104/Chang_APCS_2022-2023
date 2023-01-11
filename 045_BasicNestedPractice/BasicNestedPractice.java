@@ -1,10 +1,16 @@
-import java.util.Scanner;
+
 
 public class BasicNestedPractice{
     public static void main(String[] args) {
-        Scanner scan  new Scanner(System.in);
-        System.out.println("Type in here");
-        String word = scan.nextLine();
         
+        int foo = 100;
+
+        for(int i = 0; i <= foo; i++)
+        {
+            if(i % 2 == 0)
+            {
+                System.out.println(i);
+            }
+        }
     }
 }

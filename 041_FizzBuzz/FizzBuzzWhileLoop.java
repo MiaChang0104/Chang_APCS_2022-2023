@@ -17,6 +17,6 @@ public class FizzBuzzWhileLoop {
                 System.out.println(i);
             }
             i++;
-        } // i++;
+        } scan.close();// i++;
     }
 }

@@ -9,7 +9,7 @@ public class SimpleCounter {
         while (i < num) {
             i++;
             System.out.println(i);
-        }
+        } scan.close();
 
     }
 }

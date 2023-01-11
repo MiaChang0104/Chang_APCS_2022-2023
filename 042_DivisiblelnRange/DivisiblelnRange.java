@@ -16,6 +16,6 @@ public class DivisiblelnRange {
             } else {
                 System.out.println("");
             } // i % number3
-        }
+        } scan.close();
     }
 }
