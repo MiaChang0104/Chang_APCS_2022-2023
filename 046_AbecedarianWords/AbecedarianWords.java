@@ -19,3 +19,4 @@ public class AbecedarianWords {
     }
 
 }
+//begin at 0,so words.length()-1
