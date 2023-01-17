@@ -17,3 +17,19 @@ public class DoubloonWords {
         }
     }
 }
+
+
+/*
+
+0/1 - Compiles?
+
+Doesn't compile.
+
+0/1 - Accurate versus the instructions?
+
+Can't check.
+
+1/1 - Formatting?
+1/1 Comments
+
+ */

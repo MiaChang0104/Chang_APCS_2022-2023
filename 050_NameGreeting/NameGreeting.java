@@ -14,3 +14,17 @@ public class NameGreeting {
 
     }
 }
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+
+Does not print out name on entry.
+
+1/1 - Formatting?
+1/1 Comments
+
+These comments are pretty weak. I need more going forward.
+
+ */
