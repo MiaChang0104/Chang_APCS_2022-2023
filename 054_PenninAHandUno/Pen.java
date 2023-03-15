@@ -17,6 +17,7 @@ public class Pen {
         cap = isCap;
     }
     
+    
     public static void main(String[] args) {
         
     }
