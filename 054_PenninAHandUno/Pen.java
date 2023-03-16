@@ -1,24 +1,25 @@
 public class Pen {
     private String colorOfInk;
     private String colorOfPen;
-    private boolean cap = true;
+    private boolean isCap;
     private int inkRemaining;
 
     public Pen() {
-        colorOfInk = "blick";
+        colorOfInk = "black";
         colorOfPen = "red";
+        isCap = true;
         inkRemaining = 5;
+
     }
 
-    public Pen(String ci, String cp, int ir, boolean isCap){
+    public Pen(String , String cp, int ir) {
         colorOfInk = ci;
         colorOfPen = cp;
         inkRemaining = ir;
         cap = isCap;
     }
-    
-    
+
     public static void main(String[] args) {
-        
+
     }
 }
