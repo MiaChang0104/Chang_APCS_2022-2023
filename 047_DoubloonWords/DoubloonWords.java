@@ -12,8 +12,8 @@ public class DoubloonWords {
             } else {
                 System.out.println("No");
             }return;
-            scan.close();
             
-        }
+            
+        }scan.close();
     }
 }
