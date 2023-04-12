@@ -5,12 +5,27 @@ public class NameGreeting {
         Scanner scan = new Scanner(System.in);
         System.out.println("Type your name here:");
         String name = scan.nextLine();
-        method();
+        method(name);
     }
-// make sure it's same
-    public static void method () {
 
-        System.out.println("Hello,");
+    // make sure it's same
+    public static void method(String name) {
+
+        System.out.println("Hello," + name);
 
     }
 }
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+
+Does not print out name on entry.
+
+1/1 - Formatting?
+1/1 Comments
+
+These comments are pretty weak. I need more going forward.
+
+ */

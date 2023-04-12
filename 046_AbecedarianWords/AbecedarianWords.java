@@ -20,3 +20,16 @@ public class AbecedarianWords {
 
 }
 //begin at 0,so words.length()-1
+
+/*
+
+1/1 - Compiles?
+0/1 - Accurate versus the instructions?
+
+Ultimately, it should just answer once if if is or is not abcdarian. You're
+Just checking the a letter against the last letter.
+
+1/1 - Formatting?
+1/1 Comments
+
+ */
