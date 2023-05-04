@@ -7,15 +7,26 @@ public class InsertionSortSomeIntegers {
         System.out.println("How many random integers do you need ?");
         int number = scan.nextInt();
         Random random = new Random();
-        int[] num = new int[number];
+        int[] arr = new int[number];
         for (int i = 0; i < number; i++) {
-            num[i] = random.nextInt(1000);
-            System.out.println(num[i]);
+            arr[i] = random.nextInt(1000);
+            System.out.print(arr[i]+" ");
         }
-        for (int i = 0; i < number; i++) {
-        }
-    }
-    public static int[] () {
-        
-    }
+    public static int[] insertionSorter(int[] arr) {
+            for(int i = 1; i < arr.length; i++) {
+                int temp = arr[i];
+                int possibleIndex = i;
+    
+                while(possibleIndex > 0 && temp < arr[possibleIndex - 1]){
+                    arr[possibleIndex] = arr[possibleIndex - 1];
+                    possibleIndex--;
+                }
+    
+                arr[possibleIndex] = temp;
+            }
+    
+            return arr;   
+        } 
+       
+    
 }
