@@ -1,33 +1,46 @@
 import java.util.Scanner;
 import java.util.Random;
+
 public class InsertionSortSomeIntegers {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
-        System.out.println("How many random integers do you need ?");
-        int number = scan.nextInt();
+        System.out.print("How many number do you want: ");
+        int count = scan.nextInt();
+        
+
         Random random = new Random();
-        int[] num = new int[number];
-        for (int i = 0; i < number; i++){
-            num[i] = random.nextInt(1000);
-            
-            System.out.println(num[i]);
+        int[] randomIntegers = new int[count];
+        for (int i = 0; i < count; i++) {
+            randomIntegers[i] = random.nextInt(1000) + 1;
         }
         
-    }
-
-    public static int[] insertionSorter(int[] num) {
-        for (int i = 1; i < num.length; i++) {
-            int temp = num[i];
-            int possibleIndex = i;
-
-            while (possibleIndex > 0 && temp < num[possibleIndex - 1]) {
-                num[possibleIndex] = num[possibleIndex - 1];
-                possibleIndex--;
-            }
-            num[possibleIndex] = temp;
+        for (int num : randomIntegers) {
+            System.out.print(num + " ");
         }
-        System.out.println(num);
+        System.out.println();
+        
 
-        return num;
+        insertionSort(randomIntegers);
+        for (int num : randomIntegers) {
+            System.out.print(num + " ");
+        }
+    }  
+    
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+        
+        for (int i = 1; i < n; i++) {
+            int key = arr[i]; 
+            int j = i - 1;
+            
+           
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            
+     
+        }
     }
 }

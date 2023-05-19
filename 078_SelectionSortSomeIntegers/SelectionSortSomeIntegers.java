@@ -8,7 +8,7 @@ public class SelectionSortSomeIntegers{
         Random random = new Random();
         int[] num = new int[number];
         for (int i = 0; i < number; i++){
-            num[i] = random.nextInt(1000);
+            num[i] = random.nextInt(120)+1;
             System.out.println(num[i]);
        } 
        //Sorting numbers
