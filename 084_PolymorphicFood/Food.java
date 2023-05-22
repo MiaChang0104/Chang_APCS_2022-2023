@@ -1,17 +1,21 @@
 public class Food {
+    private String name;
+    private int calories;
 
-    public Food(String string, int i) {
+    public Food(String name, int calories) {
+        this.name = name;
+        this.calories = calories;
     }
 
-    public void eat() {
-    }
-
-    public String getCalories() {
-        return null;
+    public int getCalories() {
+        return calories;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
-    
+
+    public void eat() {
+        System.out.println("Eating " + name + ".");
+    }
 }

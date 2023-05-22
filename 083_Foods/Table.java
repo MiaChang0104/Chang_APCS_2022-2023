@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Table {
     public static void main(String[] args) {
         fruit apple = new fruit("Apple", 52, "Red", true);
@@ -12,5 +14,13 @@ public class Table {
         margherita.eat();
         margherita.bake();
         margherita.serve();
+    }
+
+    public List<Card> getDealerHand() {
+        return null;
+    }
+
+    public List<Card> getPlayerHand() {
+        return null;
     }
 }

@@ -22,7 +22,7 @@ public class Car {
         modelName = cModelName;
     }
 
-    public Car(int cYear, int cMilesDriven, String cManufacturerName, String cModelName, boolean cHasTurbo) {
+    public Car(String cManufacturerName, String cModelName) {
         year = cYear;
         milesDriven = cMilesDriven;
         manufacturerName = cManufacturerName;
